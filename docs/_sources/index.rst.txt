@@ -1,7 +1,10 @@
 BioSimulators documentation
 
-This package provides a summary of the documentation for
-BioSimulators.
+This package provides a summary of the documentation for the
+
+BioSimulators
+
+ registry of biosimulation tools.
 
 Tutorials for users and developers of simulation tools
 

@@ -18,13 +18,6 @@ This package provides a summary of the documentation for BioSimulators.
 * [Documentation about the BioSimulators util library for developers of simulation tools](https://biosimulators.github.io/Biosimulators_utils/)
 * [Documentation about the BioSimulators test suite for developers of simulation tools](https://biosimulators.github.io/Biosimulators_test_suite/)
 
-## Contents
-* [License](#license)
-* [Development team](#development-team)
-* [Contributing to BioSimulators](#contributing-to-biosimulators)
-* [Acknowledgements](#acknowledgements)
-* [Questions and comments](#questions-and-comments)
-
 ## License
 BioSimulators is released under the [MIT License](https://github.com/biosimulators/Biosimulators/blob/dev/LICENSE).
 

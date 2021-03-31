@@ -1,0 +1,68 @@
+name: Continuous integration
+
+on:
+  - push
+
+jobs:
+  buildAndRelease:
+    name: Compile documentation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+
+      - name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.7'
+
+      - name: Setup pip cache
+        uses: actions/cache@v2
+        with:
+          path: /opt/hostedtoolcache/Python
+          key: ${{ runner.os }}-pip-${{ hashFiles('docs-src/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install pip and setuptools
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install --upgrade setuptools
+
+      # compile documentation
+      - name: Install the requirements for compiling the documentation
+        run: python -m pip install -r docs-src/requirements.txt
+
+      - name: Compile the documentation
+        run: |
+          mkdir -p docs-src/_static
+          sphinx-build docs-src docs
+
+      # push documentation
+      - id: commit-docs
+        name: Commit the compiled documentation
+        run: |
+          git config --local user.email "biosimulators.daemon@gmail.com"
+          git config --local user.name "biosimulatorsdaemon"
+          git config pull.rebase false
+          git stash
+          git pull
+          set +e
+          git stash pop
+          git add docs
+          git commit -m "Updating compiled documentation"
+          if [[ $? = 0 ]]; then
+            docsChanged=1
+          else
+            docsChanged=0
+          fi
+          echo "::set-output name=docsChanged::$docsChanged"
+
+      - name: Push the compiled documentation
+        if: steps.commit-docs.outputs.docsChanged == '1'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: dev

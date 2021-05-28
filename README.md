@@ -13,7 +13,7 @@ This package provides a summary of the documentation for BioSimulators.
   * [COPASI](https://biosimulators.github.io/Biosimulators_COPASI/)
   * [GillesPy2](https://biosimulators.github.io/Biosimulators_GillesPy2/)
   * [OpenCOR](https://biosimulators.github.io/Biosimulators_OpenCOR/)
-  * [PyNeuroML](https://biosimulators.github.io/Biosimulators_PyNeuroML/)
+  * [pyNeuroML](https://biosimulators.github.io/Biosimulators_pyNeuroML/)
   * [PySCeS](https://biosimulators.github.io/Biosimulators_PySCeS/)
   * [Smoldyn](https://smoldyn.readthedocs.io/en/latest/python/api.html#sed-ml-combine-biosimulators-api)
   * [tellurium](https://biosimulators.github.io/Biosimulators_tellurium/)

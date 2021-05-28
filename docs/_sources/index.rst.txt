@@ -15,8 +15,8 @@ developers of simulation tools
 
 Documementation for users of the Python packages for the individual
 standardized simulation tools available through BioSimulators  AMICI
-BioNetGen  BoolNet  CBMPy  COBRAPy  COPASI  GillesPy2  PySCeS
-tellurium  VCell
+BioNetGen  BoolNet  CBMPy  COBRAPy  COPASI  GillesPy2  OpenCOR
+PyNeuroML  PySCeS  Smoldyn  tellurium  VCell
 
 Documentation about the BioSimulators util library for developers of
 simulation tools

@@ -16,6 +16,9 @@ This package provides a summary of the documentation for the `BioSimulators <htt
   * `COBRAPy <https://biosimulators.github.io/Biosimulators_COBRAPy/>`_
   * `COPASI <https://biosimulators.github.io/Biosimulators_COPASI/>`_
   * `GillesPy2 <https://biosimulators.github.io/Biosimulators_GillesPy2/>`_
+  * `GINsim <https://biosimulators.github.io/Biosimulators_GINsim/>`_
+  * `NetPyNe <https://biosimulators.github.io/Biosimulators_pyNeuroML/>`_
+  * `NEURON <https://biosimulators.github.io/Biosimulators_pyNeuroML/>`_
   * `OpenCOR <https://biosimulators.github.io/Biosimulators_OpenCOR/>`_
   * `pyNeuroML <https://biosimulators.github.io/Biosimulators_pyNeuroML/>`_
   * `PySCeS <https://biosimulators.github.io/Biosimulators_PySCeS/>`_

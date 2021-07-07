@@ -19,8 +19,8 @@ developers of simulation tools
 
 Documementation for users of the Python packages for the individual
 standardized simulation tools available through BioSimulators  AMICI
-BioNetGen  BoolNet  CBMPy  COBRAPy  COPASI  GillesPy2  OpenCOR
-pyNeuroML  PySCeS  Smoldyn  tellurium  VCell
+BioNetGen  BoolNet  CBMPy  COBRAPy  COPASI  GillesPy2  GINsim  NetPyNe
+NEURON  OpenCOR  pyNeuroML  PySCeS  Smoldyn  tellurium  VCell
 
 Documentation for using SED-ML and COMBINE archives with model
 languages  BioNetGen Language (BNGL)  CellML  Smoldyn language

@@ -4,7 +4,7 @@ BioSimulators technical documentation
 This package provides a summary of the documentation for the `BioSimulators <https://biosimulators.org>`_ registry of biosimulation tools.
 
 * `Tutorials for users and developers of simulation tools <https://biosimulators.org/help>`_
-* `Example SED-ML files and COMBINE archives <https://github.com/biosimulators/Biosimulators_test_suite/tree/dev/examples>`_. This includes examples for the BioNetGen Language (BNGL), CellML, NeuroML/LEMS, the Smolydn language, and the Systems Biology Markup Language (SBML).
+* `Example SED-ML files and COMBINE archives <https://github.com/biosimulators/Biosimulators_test_suite/tree/dev/examples>`_. This includes examples for the BioNetGen Language (BNGL), CellML, NeuroML/LEMS, the Smolydn language, the Systems Biology Markup Language (SBML), and XPP.
 * `FAQs for users and developers of simulation tools <https://biosimulators.org/help/faq>`_
 * `Documentation about BioSimulators' conventions for users and developers of simulation tools <https://biosimulators.org/standards>`_
 * Documementation for users of the Python packages for the individual standardized simulation tools available through BioSimulators
@@ -22,6 +22,7 @@ This package provides a summary of the documentation for the `BioSimulators <htt
   * `Smoldyn <https://smoldyn.readthedocs.io/en/latest/python/api.html#sed-ml-combine-biosimulators-api>`_
   * `tellurium <https://biosimulators.github.io/Biosimulators_tellurium/>`_
   * `VCell <https://github.com/virtualcell/vcell>`_
+  * `XPP <https://biosimulators.github.io/Biosimulators_XPP/>`_
 
 * Documentation for using SED-ML and COMBINE archives with model languages
 
@@ -29,6 +30,7 @@ This package provides a summary of the documentation for the `BioSimulators <htt
   * `CellML <http://sed-ml.org/specifications.html>`_
   * `Smoldyn language <https://github.com/ssandrews/Smoldyn/blob/master/Using-Smoldyn-with-SED-ML-COMBINE-BioSimulators.md>`_
   * `Systems Biology Markup Language (SBML) <http://sed-ml.org/specifications.html>`_
+  * `XPP <https://biosimulators.github.io/Biosimulators_XPP/tutorial.html>`_
 
 * URNs and specification URIs for using using SED-ML and COMBINE archives with model languages
 
@@ -40,6 +42,7 @@ This package provides a summary of the documentation for the `BioSimulators <htt
     (NeuroML)/LEMS  ``format_9004``  ``urn:sedml:language:lems``     ``http://purl.org/NET/mediatypes/application/lems+xml``   ``application/lems+xml``    ``.xml``
     SBML            ``format_2585``  ``urn:sedml:language:sbml``     ``http://identifiers.org/combine.specifications/sbml``    ``application/sbml+xml``    ``.xml``, ``.sbml``
     Smoldyn         ``format_9001``  ``urn:sedml:language:smoldyn``  ``http://purl.org/NET/mediatypes/text/smoldyn+plain``     ``text/smoldyn+plain``      ``.txt``
+    XPP             ``format_9010``  ``urn:sedml:language:xpp``      ``http://purl.org/NET/mediatypes/text/x-xpp``             ``text/x-xpp``              ``.xpp``
     ==============  ===============  ==============================  ========================================================  ==========================  =====================
 
 * `Documentation about the BioSimulators util library for developers of simulation tools <https://biosimulators.github.io/Biosimulators_utils/>`_

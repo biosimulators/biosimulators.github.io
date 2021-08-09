@@ -10,7 +10,7 @@ Tutorials for users and developers of simulation tools
 
 Example SED-ML files and COMBINE archives. This includes examples for
 the BioNetGen Language (BNGL), CellML, NeuroML/LEMS, the Smolydn
-language, and the Systems Biology Markup Language (SBML).
+language, the Systems Biology Markup Language (SBML), and XPP.
 
 FAQs for users and developers of simulation tools
 
@@ -20,11 +20,11 @@ developers of simulation tools
 Documementation for users of the Python packages for the individual
 standardized simulation tools available through BioSimulators  AMICI
 BioNetGen  BoolNet  CBMPy  COBRAPy  COPASI  GillesPy2  GINsim  NetPyNe
-NEURON  OpenCOR  pyNeuroML  PySCeS  Smoldyn  tellurium  VCell
+NEURON  OpenCOR  pyNeuroML  PySCeS  Smoldyn  tellurium  VCell  XPP
 
 Documentation for using SED-ML and COMBINE archives with model
 languages  BioNetGen Language (BNGL)  CellML  Smoldyn language
-Systems Biology Markup Language (SBML)
+Systems Biology Markup Language (SBML)  XPP
 
 URNs and specification URIs for using using SED-ML and COMBINE
 archives with model languages              Language  EDAM format  SED-
@@ -41,7 +41,8 @@ http://identifiers.org/combine.specifications/sbml
 application/sbml+xml  .xml, .sbml  Smoldyn  format_9001
 urn:sedml:language:smoldyn
 http://purl.org/NET/mediatypes/text/smoldyn+plain  text/smoldyn+plain
-.txt
+.txt  XPP  format_9010  urn:sedml:language:xpp
+http://purl.org/NET/mediatypes/text/x-xpp  text/x-xpp  .xpp
 
 Documentation about the BioSimulators util library for developers of
 simulation tools

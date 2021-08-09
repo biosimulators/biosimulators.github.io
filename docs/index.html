@@ -69,7 +69,7 @@
   <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -96,7 +96,7 @@
 <p>This package provides a summary of the documentation for the <a class="reference external" href="https://biosimulators.org">BioSimulators</a> registry of biosimulation tools.</p>
 <ul>
 <li><p><a class="reference external" href="https://biosimulators.org/help">Tutorials for users and developers of simulation tools</a></p></li>
-<li><p><a class="reference external" href="https://github.com/biosimulators/Biosimulators_test_suite/tree/dev/examples">Example SED-ML files and COMBINE archives</a>. This includes examples for the BioNetGen Language (BNGL), CellML, NeuroML/LEMS, the Smolydn language, and the Systems Biology Markup Language (SBML).</p></li>
+<li><p><a class="reference external" href="https://github.com/biosimulators/Biosimulators_test_suite/tree/dev/examples">Example SED-ML files and COMBINE archives</a>. This includes examples for the BioNetGen Language (BNGL), CellML, NeuroML/LEMS, the Smolydn language, the Systems Biology Markup Language (SBML), and XPP.</p></li>
 <li><p><a class="reference external" href="https://biosimulators.org/help/faq">FAQs for users and developers of simulation tools</a></p></li>
 <li><p><a class="reference external" href="https://biosimulators.org/standards">Documentation about BioSimulators’ conventions for users and developers of simulation tools</a></p></li>
 <li><p>Documementation for users of the Python packages for the individual standardized simulation tools available through BioSimulators</p>
@@ -117,6 +117,7 @@
 <li><p><a class="reference external" href="https://smoldyn.readthedocs.io/en/latest/python/api.html#sed-ml-combine-biosimulators-api">Smoldyn</a></p></li>
 <li><p><a class="reference external" href="https://biosimulators.github.io/Biosimulators_tellurium/">tellurium</a></p></li>
 <li><p><a class="reference external" href="https://github.com/virtualcell/vcell">VCell</a></p></li>
+<li><p><a class="reference external" href="https://biosimulators.github.io/Biosimulators_XPP/">XPP</a></p></li>
 </ul>
 </li>
 <li><p>Documentation for using SED-ML and COMBINE archives with model languages</p>
@@ -125,6 +126,7 @@
 <li><p><a class="reference external" href="http://sed-ml.org/specifications.html">CellML</a></p></li>
 <li><p><a class="reference external" href="https://github.com/ssandrews/Smoldyn/blob/master/Using-Smoldyn-with-SED-ML-COMBINE-BioSimulators.md">Smoldyn language</a></p></li>
 <li><p><a class="reference external" href="http://sed-ml.org/specifications.html">Systems Biology Markup Language (SBML)</a></p></li>
+<li><p><a class="reference external" href="https://biosimulators.github.io/Biosimulators_XPP/tutorial.html">XPP</a></p></li>
 </ul>
 </li>
 <li><p>URNs and specification URIs for using using SED-ML and COMBINE archives with model languages</p>
@@ -182,6 +184,13 @@
 <td><p><code class="docutils literal notranslate"><span class="pre">http://purl.org/NET/mediatypes/text/smoldyn+plain</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">text/smoldyn+plain</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">.txt</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>XPP</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">format_9010</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">urn:sedml:language:xpp</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">http://purl.org/NET/mediatypes/text/x-xpp</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">text/x-xpp</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">.xpp</span></code></p></td>
 </tr>
 </tbody>
 </table>

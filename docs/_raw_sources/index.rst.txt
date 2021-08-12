@@ -4,7 +4,7 @@ BioSimulators technical documentation
 This package provides a summary of the documentation for the `BioSimulators <https://biosimulators.org>`_ registry of biosimulation tools.
 
 * `Tutorials for users and developers of simulation tools <https://biosimulators.org/help>`_
-* `Example SED-ML files and COMBINE archives <https://github.com/biosimulators/Biosimulators_test_suite/tree/dev/examples>`_. This includes examples for the BioNetGen Language (BNGL), CellML, NeuroML/LEMS, the Smolydn language, the Systems Biology Markup Language (SBML), and XPP.
+* `Example SED-ML files and COMBINE archives <https://github.com/biosimulators/Biosimulators_test_suite/tree/dev/examples>`_. This includes examples for the BioNetGen Language (BNGL), CellML, NeuroML/LEMS, the Smolydn language, the Systems Biology Markup Language (SBML), SBML-fbc, SBML-qual, SBML MASS models, and XPP.
 * `FAQs for users and developers of simulation tools <https://biosimulators.org/help/faq>`_
 * `Documentation about BioSimulators' conventions for users and developers of simulation tools <https://biosimulators.org/standards>`_
 * Documementation for users of the Python packages for the individual standardized simulation tools available through BioSimulators
@@ -17,6 +17,7 @@ This package provides a summary of the documentation for the `BioSimulators <htt
   * `COPASI <https://biosimulators.github.io/Biosimulators_COPASI/>`_
   * `GillesPy2 <https://biosimulators.github.io/Biosimulators_GillesPy2/>`_
   * `GINsim <https://biosimulators.github.io/Biosimulators_GINsim/>`_
+  * `MASSpy <https://biosimulators.github.io/Biosimulators_MASSpy/>`_
   * `NetPyNe <https://biosimulators.github.io/Biosimulators_pyNeuroML/>`_
   * `NEURON <https://biosimulators.github.io/Biosimulators_pyNeuroML/>`_
   * `OpenCOR <https://biosimulators.github.io/Biosimulators_OpenCOR/>`_

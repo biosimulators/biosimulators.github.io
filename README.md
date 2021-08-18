@@ -13,6 +13,7 @@ This package provides a summary of the documentation for BioSimulators.
   * [COPASI](https://biosimulators.github.io/Biosimulators_COPASI/)
   * [GillesPy2](https://biosimulators.github.io/Biosimulators_GillesPy2/)
   * [GINsim](https://biosimulators.github.io/Biosimulators_GINsim/)
+  * [LibSBMLSim](https://biosimulators.github.io/Biosimulators_LibSBMLSim/)
   * [MASSpy](https://biosimulators.github.io/Biosimulators_MASSpy/)
   * [NetPyNe](https://biosimulators.github.io/Biosimulators_pyNeuroML/)
   * [NEURON](https://biosimulators.github.io/Biosimulators_pyNeuroML/)  

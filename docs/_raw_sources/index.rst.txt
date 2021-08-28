@@ -4,7 +4,7 @@ BioSimulators technical documentation
 This package provides a summary of the documentation for the `BioSimulators <https://biosimulators.org>`_ registry of biosimulation tools.
 
 * `Tutorials for users and developers of simulation tools <https://biosimulators.org/help>`_
-* `Example SED-ML files and COMBINE archives <https://github.com/biosimulators/Biosimulators_test_suite/tree/dev/examples>`_. This includes examples for the BioNetGen Language (BNGL), CellML, NeuroML/LEMS, the Smolydn language, the Systems Biology Markup Language (SBML), SBML-fbc, SBML-qual, SBML MASS models, and XPP.
+* `Example SED-ML files and COMBINE archives <https://github.com/biosimulators/Biosimulators_test_suite/tree/dev/examples>`_. This includes examples for the BioNetGen Language (BNGL), CellML, NeuroML/LEMS, the RBApy language, the Smoldyn language, the Systems Biology Markup Language (SBML), SBML-fbc, SBML-qual, the SBML schema for MASS models, and XPP.
 * `FAQs for users and developers of simulation tools <https://biosimulators.org/help/faq>`_
 * `Documentation about BioSimulators' conventions for users and developers of simulation tools <https://biosimulators.org/standards>`_
 * Documementation for users of the Python packages for the individual standardized simulation tools available through BioSimulators
@@ -24,6 +24,7 @@ This package provides a summary of the documentation for the `BioSimulators <htt
   * `OpenCOR <https://biosimulators.github.io/Biosimulators_OpenCOR/>`_
   * `pyNeuroML <https://biosimulators.github.io/Biosimulators_pyNeuroML/>`_
   * `PySCeS <https://biosimulators.github.io/Biosimulators_PySCeS/>`_
+  * `RBApy <https://biosimulators.github.io/Biosimulators_RBApy/>`_
   * `Smoldyn <https://smoldyn.readthedocs.io/en/latest/python/api.html#sed-ml-combine-biosimulators-api>`_
   * `tellurium <https://biosimulators.github.io/Biosimulators_tellurium/>`_
   * `VCell <https://github.com/virtualcell/vcell>`_
@@ -33,8 +34,10 @@ This package provides a summary of the documentation for the `BioSimulators <htt
 
   * `BioNetGen Language (BNGL) <https://biosimulators.github.io/Biosimulators_BioNetGen/tutorial.html>`_  
   * `CellML <http://sed-ml.org/specifications.html>`_
+  * `NeuroML/LEMS <https://docs.neuroml.org/Userdocs/Paths.html>`_
+  * `RBApy  <https://biosimulators.github.io/Biosimulators_RBApy/tutorial.html>`_
   * `Smoldyn language <https://github.com/ssandrews/Smoldyn/blob/master/Using-Smoldyn-with-SED-ML-COMBINE-BioSimulators.md>`_
-  * `Systems Biology Markup Language (SBML) <http://sed-ml.org/specifications.html>`_
+  * `Systems Biology Markup Language (SBML) <http://sed-ml.org/specifications.html>`_ including SBML-fbc, SBML-qual, and the SBML schema for MASS models
   * `XPP <https://biosimulators.github.io/Biosimulators_XPP/tutorial.html>`_
 
 * URNs and specification URIs for using using SED-ML and COMBINE archives with model languages
@@ -45,6 +48,7 @@ This package provides a summary of the documentation for the `BioSimulators <htt
     BNGL            ``format_3972``  ``urn:sedml:language:bngl``     ``http://purl.org/NET/mediatypes/text/bngl+plain``        ``text/bngl+plain``         ``.bngl``
     CellML          ``format_3240``  ``urn:sedml:language:cellml``   ``http://identifiers.org/combine.specifications/cellml``  ``application/cellml+xml``  ``.xml``, ``.cellml``
     (NeuroML)/LEMS  ``format_9004``  ``urn:sedml:language:lems``     ``http://purl.org/NET/mediatypes/application/lems+xml``   ``application/lems+xml``    ``.xml``
+    RBA             ``format_9012``  ``urn:sedml:language:rba``      ``http://purl.org/NET/mediatypes/application/rba+zip``    ``application/rba+zip``     ``.zip``
     SBML            ``format_2585``  ``urn:sedml:language:sbml``     ``http://identifiers.org/combine.specifications/sbml``    ``application/sbml+xml``    ``.xml``, ``.sbml``
     Smoldyn         ``format_9001``  ``urn:sedml:language:smoldyn``  ``http://purl.org/NET/mediatypes/text/smoldyn+plain``     ``text/smoldyn+plain``      ``.txt``
     XPP             ``format_9010``  ``urn:sedml:language:xpp``      ``http://purl.org/NET/mediatypes/text/x-xpp``             ``text/x-xpp``              ``.xpp``

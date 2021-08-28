@@ -6,34 +6,34 @@ This package provides a summary of the documentation for the [BioSimulators](htt
 * [FAQs for users and developers of simulation tools](https://biosimulators.org/help/faq)
 * [Documentation about BioSimulators' conventions for users and developers of simulation tools](https://biosimulators.org/standards)
 * Documementation for users of the Python packages for the individual standardized simulation tools available through BioSimulators
-  * [AMICI](https://biosimulators.github.io/Biosimulators_AMICI/)
-  * [BioNetGen](https://biosimulators.github.io/Biosimulators_BioNetGen/)
-  * [BoolNet](https://biosimulators.github.io/Biosimulators_BoolNet/)
-  * [CBMPy](https://biosimulators.github.io/Biosimulators_CBMPy/)
-  * [COBRAPy](https://biosimulators.github.io/Biosimulators_COBRAPy/)
-  * [COPASI](https://biosimulators.github.io/Biosimulators_COPASI/)
-  * [GillesPy2](https://biosimulators.github.io/Biosimulators_GillesPy2/)
-  * [GINsim](https://biosimulators.github.io/Biosimulators_GINsim/)
-  * [LibSBMLSim](https://biosimulators.github.io/Biosimulators_LibSBMLSim/)
-  * [MASSpy](https://biosimulators.github.io/Biosimulators_MASSpy/)
-  * [NetPyNe](https://biosimulators.github.io/Biosimulators_pyNeuroML/)
-  * [NEURON](https://biosimulators.github.io/Biosimulators_pyNeuroML/)  
-  * [OpenCOR](https://biosimulators.github.io/Biosimulators_OpenCOR/)
-  * [pyNeuroML](https://biosimulators.github.io/Biosimulators_pyNeuroML/)
-  * [PySCeS](https://biosimulators.github.io/Biosimulators_PySCeS/)
-  * [RBApy](https://biosimulators.github.io/Biosimulators_RBApy/)
+  * [AMICI](https://docs.biosimulators.org/Biosimulators_AMICI/)
+  * [BioNetGen](https://docs.biosimulators.org/Biosimulators_BioNetGen/)
+  * [BoolNet](https://docs.biosimulators.org/Biosimulators_BoolNet/)
+  * [CBMPy](https://docs.biosimulators.org/Biosimulators_CBMPy/)
+  * [COBRAPy](https://docs.biosimulators.org/Biosimulators_COBRAPy/)
+  * [COPASI](https://docs.biosimulators.org/Biosimulators_COPASI/)
+  * [GillesPy2](https://docs.biosimulators.org/Biosimulators_GillesPy2/)
+  * [GINsim](https://docs.biosimulators.org/Biosimulators_GINsim/)
+  * [LibSBMLSim](https://docs.biosimulators.org/Biosimulators_LibSBMLSim/)
+  * [MASSpy](https://docs.biosimulators.org/Biosimulators_MASSpy/)
+  * [NetPyNe](https://docs.biosimulators.org/Biosimulators_pyNeuroML/)
+  * [NEURON](https://docs.biosimulators.org/Biosimulators_pyNeuroML/)  
+  * [OpenCOR](https://docs.biosimulators.org/Biosimulators_OpenCOR/)
+  * [pyNeuroML](https://docs.biosimulators.org/Biosimulators_pyNeuroML/)
+  * [PySCeS](https://docs.biosimulators.org/Biosimulators_PySCeS/)
+  * [RBApy](https://docs.biosimulators.org/Biosimulators_RBApy/)
   * [Smoldyn](https://smoldyn.readthedocs.io/en/latest/python/api.html#sed-ml-combine-biosimulators-api)
-  * [tellurium](https://biosimulators.github.io/Biosimulators_tellurium/)
+  * [tellurium](https://docs.biosimulators.org/Biosimulators_tellurium/)
   * [VCell](https://github.com/virtualcell/vcell)
-  * [XPP](https://biosimulators.github.io/Biosimulators_XPP/)
+  * [XPP](https://docs.biosimulators.org/Biosimulators_XPP/)
 * Documentation for using SED-ML and COMBINE archives with model languages
-  * [BioNetGen Language (BNGL)](https://biosimulators.github.io/Biosimulators_BioNetGen/tutorial.html)
+  * [BioNetGen Language (BNGL)](https://docs.biosimulators.org/Biosimulators_BioNetGen/tutorial.html)
   * [CellML](http://sed-ml.org/specifications.html)
   * [NeuroML/LEMS](https://docs.neuroml.org/Userdocs/Paths.html)
-  * [RBApy](https://biosimulators.github.io/Biosimulators_RBApy/tutorial.html)
+  * [RBApy](https://docs.biosimulators.org/Biosimulators_RBApy/tutorial.html)
   * [Smoldyn language](https://github.com/ssandrews/Smoldyn/blob/master/Using-Smoldyn-with-SED-ML-COMBINE-BioSimulators.md)
   * [Systems Biology Markup Language (SBML)](http://sed-ml.org/specifications.html) including SBML-fbc, SBML-qual, and the SBML schema for MASS models
-  * [XPP](https://biosimulators.github.io/Biosimulators_XPP/tutorial.html)
+  * [XPP](https://docs.biosimulators.org/Biosimulators_XPP/tutorial.html)
 * URNs and specification URIs for using using SED-ML and COMBINE archives with model languages
     | Language       | EDAM format   | SED-ML URN                   | COMBINE archive specification URI                      | MIME type                | Extensions        |
     | -------------- | ------------- | ---------------------------- | ------------------------------------------------------ | ------------------------ | ----------------- |
@@ -44,8 +44,8 @@ This package provides a summary of the documentation for the [BioSimulators](htt
     | SBML           | `format_2585` | `urn:sedml:language:sbml`    | `http://identifiers.org/combine.specifications/sbml`   | `application/sbml+xml`   | `.xml`, `.sbml`   |
     | Smoldyn        | `format_9001` | `urn:sedml:language:smoldyn` | `http://purl.org/NET/mediatypes/text/smoldyn+plain`    | `text/smoldyn+plain`     | `.txt`            |
     | XPP            | `format_9010` | `urn:sedml:language:xpp`     | `http://purl.org/NET/mediatypes/text/x-xpp`            | `text/x-xpp`             | `.xpp`            |
-* [Documentation about the BioSimulators util library for developers of simulation tools](https://biosimulators.github.io/Biosimulators_utils/)
-* [Documentation about the BioSimulators test suite for developers of simulation tools](https://biosimulators.github.io/Biosimulators_test_suite/)
+* [Documentation about the BioSimulators util library for developers of simulation tools](https://docs.biosimulators.org/Biosimulators_utils/)
+* [Documentation about the BioSimulators test suite for developers of simulation tools](https://docs.biosimulators.org/Biosimulators_test_suite/)
 
 ## License
 BioSimulators is released under the [MIT License](https://github.com/biosimulators/Biosimulators/blob/dev/LICENSE).

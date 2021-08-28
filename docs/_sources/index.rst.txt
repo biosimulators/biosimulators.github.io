@@ -9,9 +9,9 @@ BioSimulators
 Tutorials for users and developers of simulation tools
 
 Example SED-ML files and COMBINE archives. This includes examples for
-the BioNetGen Language (BNGL), CellML, NeuroML/LEMS, the Smolydn
-language, the Systems Biology Markup Language (SBML), SBML-fbc, SBML-
-qual, SBML MASS models, and XPP.
+the BioNetGen Language (BNGL), CellML, NeuroML/LEMS, the RBApy
+language, the Smoldyn language, the Systems Biology Markup Language
+(SBML), SBML-fbc, SBML-qual, the SBML schema for MASS models, and XPP.
 
 FAQs for users and developers of simulation tools
 
@@ -21,12 +21,13 @@ developers of simulation tools
 Documementation for users of the Python packages for the individual
 standardized simulation tools available through BioSimulators  AMICI
 BioNetGen  BoolNet  CBMPy  COBRAPy  COPASI  GillesPy2  GINsim
-LibSBMLSim  MASSpy  NetPyNe  NEURON  OpenCOR  pyNeuroML  PySCeS
+LibSBMLSim  MASSpy  NetPyNe  NEURON  OpenCOR  pyNeuroML  PySCeS  RBApy
 Smoldyn  tellurium  VCell  XPP
 
 Documentation for using SED-ML and COMBINE archives with model
-languages  BioNetGen Language (BNGL)  CellML  Smoldyn language
-Systems Biology Markup Language (SBML)  XPP
+languages  BioNetGen Language (BNGL)  CellML  NeuroML/LEMS  RBApy
+Smoldyn language  Systems Biology Markup Language (SBML) including
+SBML-fbc, SBML-qual, and the SBML schema for MASS models  XPP
 
 URNs and specification URIs for using using SED-ML and COMBINE
 archives with model languages              Language  EDAM format  SED-
@@ -38,7 +39,9 @@ http://identifiers.org/combine.specifications/cellml
 application/cellml+xml  .xml, .cellml  (NeuroML)/LEMS  format_9004
 urn:sedml:language:lems
 http://purl.org/NET/mediatypes/application/lems+xml
-application/lems+xml  .xml  SBML  format_2585  urn:sedml:language:sbml
+application/lems+xml  .xml  RBA  format_9012  urn:sedml:language:rba
+http://purl.org/NET/mediatypes/application/rba+zip
+application/rba+zip  .zip  SBML  format_2585  urn:sedml:language:sbml
 http://identifiers.org/combine.specifications/sbml
 application/sbml+xml  .xml, .sbml  Smoldyn  format_9001
 urn:sedml:language:smoldyn

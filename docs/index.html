@@ -96,7 +96,7 @@
 <p>This package provides a summary of the documentation for the <a class="reference external" href="https://biosimulators.org">BioSimulators</a> registry of biosimulation tools.</p>
 <ul>
 <li><p><a class="reference external" href="https://biosimulators.org/help">Tutorials for users and developers of simulation tools</a></p></li>
-<li><p><a class="reference external" href="https://github.com/biosimulators/Biosimulators_test_suite/tree/dev/examples">Example SED-ML files and COMBINE archives</a>. This includes examples for the BioNetGen Language (BNGL), CellML, NeuroML/LEMS, the Smolydn language, the Systems Biology Markup Language (SBML), SBML-fbc, SBML-qual, SBML MASS models, and XPP.</p></li>
+<li><p><a class="reference external" href="https://github.com/biosimulators/Biosimulators_test_suite/tree/dev/examples">Example SED-ML files and COMBINE archives</a>. This includes examples for the BioNetGen Language (BNGL), CellML, NeuroML/LEMS, the RBApy language, the Smoldyn language, the Systems Biology Markup Language (SBML), SBML-fbc, SBML-qual, the SBML schema for MASS models, and XPP.</p></li>
 <li><p><a class="reference external" href="https://biosimulators.org/help/faq">FAQs for users and developers of simulation tools</a></p></li>
 <li><p><a class="reference external" href="https://biosimulators.org/standards">Documentation about BioSimulators’ conventions for users and developers of simulation tools</a></p></li>
 <li><p>Documementation for users of the Python packages for the individual standardized simulation tools available through BioSimulators</p>
@@ -116,6 +116,7 @@
 <li><p><a class="reference external" href="https://biosimulators.github.io/Biosimulators_OpenCOR/">OpenCOR</a></p></li>
 <li><p><a class="reference external" href="https://biosimulators.github.io/Biosimulators_pyNeuroML/">pyNeuroML</a></p></li>
 <li><p><a class="reference external" href="https://biosimulators.github.io/Biosimulators_PySCeS/">PySCeS</a></p></li>
+<li><p><a class="reference external" href="https://biosimulators.github.io/Biosimulators_RBApy/">RBApy</a></p></li>
 <li><p><a class="reference external" href="https://smoldyn.readthedocs.io/en/latest/python/api.html#sed-ml-combine-biosimulators-api">Smoldyn</a></p></li>
 <li><p><a class="reference external" href="https://biosimulators.github.io/Biosimulators_tellurium/">tellurium</a></p></li>
 <li><p><a class="reference external" href="https://github.com/virtualcell/vcell">VCell</a></p></li>
@@ -126,8 +127,10 @@
 <ul class="simple">
 <li><p><a class="reference external" href="https://biosimulators.github.io/Biosimulators_BioNetGen/tutorial.html">BioNetGen Language (BNGL)</a></p></li>
 <li><p><a class="reference external" href="http://sed-ml.org/specifications.html">CellML</a></p></li>
+<li><p><a class="reference external" href="https://docs.neuroml.org/Userdocs/Paths.html">NeuroML/LEMS</a></p></li>
+<li><p><a class="reference external" href="https://biosimulators.github.io/Biosimulators_RBApy/tutorial.html">RBApy</a></p></li>
 <li><p><a class="reference external" href="https://github.com/ssandrews/Smoldyn/blob/master/Using-Smoldyn-with-SED-ML-COMBINE-BioSimulators.md">Smoldyn language</a></p></li>
-<li><p><a class="reference external" href="http://sed-ml.org/specifications.html">Systems Biology Markup Language (SBML)</a></p></li>
+<li><p><a class="reference external" href="http://sed-ml.org/specifications.html">Systems Biology Markup Language (SBML)</a> including SBML-fbc, SBML-qual, and the SBML schema for MASS models</p></li>
 <li><p><a class="reference external" href="https://biosimulators.github.io/Biosimulators_XPP/tutorial.html">XPP</a></p></li>
 </ul>
 </li>
@@ -173,21 +176,28 @@
 <td><p><code class="docutils literal notranslate"><span class="pre">application/lems+xml</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">.xml</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><p>SBML</p></td>
+<tr class="row-odd"><td><p>RBA</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">format_9012</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">urn:sedml:language:rba</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">http://purl.org/NET/mediatypes/application/rba+zip</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">application/rba+zip</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">.zip</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p>SBML</p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">format_2585</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">urn:sedml:language:sbml</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">http://identifiers.org/combine.specifications/sbml</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">application/sbml+xml</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">.xml</span></code>, <code class="docutils literal notranslate"><span class="pre">.sbml</span></code></p></td>
 </tr>
-<tr class="row-even"><td><p>Smoldyn</p></td>
+<tr class="row-odd"><td><p>Smoldyn</p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">format_9001</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">urn:sedml:language:smoldyn</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">http://purl.org/NET/mediatypes/text/smoldyn+plain</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">text/smoldyn+plain</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">.txt</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><p>XPP</p></td>
+<tr class="row-even"><td><p>XPP</p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">format_9010</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">urn:sedml:language:xpp</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">http://purl.org/NET/mediatypes/text/x-xpp</span></code></p></td>

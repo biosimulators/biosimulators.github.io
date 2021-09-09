@@ -62,7 +62,6 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 3
-   :numbered:
+   :maxdepth: 2
 
    about.rst

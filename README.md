@@ -10,7 +10,7 @@ This package provides a summary of the documentation for the [BioSimulators](htt
   * [BioNetGen](https://docs.biosimulators.org/Biosimulators_BioNetGen/)
   * [BoolNet](https://docs.biosimulators.org/Biosimulators_BoolNet/)
   * [CBMPy](https://docs.biosimulators.org/Biosimulators_CBMPy/)
-  * [COBRAPy](https://docs.biosimulators.org/Biosimulators_COBRAPy/)
+  * [COBRApy](https://docs.biosimulators.org/Biosimulators_COBRApy/)
   * [COPASI](https://docs.biosimulators.org/Biosimulators_COPASI/)
   * [GillesPy2](https://docs.biosimulators.org/Biosimulators_GillesPy2/)
   * [GINsim](https://docs.biosimulators.org/Biosimulators_GINsim/)

@@ -3,8 +3,19 @@ BioSimulators technical documentation
 
 This package provides a summary of the documentation for the `BioSimulators <https://biosimulators.org>`_ registry of biosimulation tools.
 
-* `Tutorials for users and developers of simulation tools <https://biosimulators.org/help>`_
+* Tutorials for users and developers of simulation tools
+  
+  * `Executing simulations online <https://biosimulators.org/help>`_
+  * `Executing simulations using standardized Docker images <https://biosimulators.org/help>`_
+  * `Executing simulations using standardized command-line applications <https://biosimulators.org/help>`_
+  * `Programmatically introspecting model/simulation files <https://mybinder.org/v2/gh/biosimulators/Biosimulators_tutorials/HEAD>`_
+  * `Programmatically creating SED-ML files and COMBINE/archives from model model/simulation files <https://mybinder.org/v2/gh/biosimulators/Biosimulators_tutorials/HEAD>`_
+  * `Programmatically retrieving information about the capabilities of simulation tools <https://mybinder.org/v2/gh/biosimulators/Biosimulators_tutorials/HEAD>`_
+  * `Programmatically executing simulations in Python <https://mybinder.org/v2/gh/biosimulators/Biosimulators_tutorials/HEAD>`_
+  * `Creating standardized interfaces to simulation tools <https://github.com/biosimulators/Biosimulators_simulator_template>`_
+
 * `Example SED-ML files and COMBINE archives <https://github.com/biosimulators/Biosimulators_test_suite/tree/dev/examples>`_. This includes examples for the BioNetGen Language (BNGL), CellML, NeuroML/LEMS, the RBApy language, the Smoldyn language, the Systems Biology Markup Language (SBML), SBML-fbc, SBML-qual, the SBML schema for MASS models, and XPP.
+* `Template Python package for a standardized interface to a simulation tool <https://github.com/biosimulators/Biosimulators_simulator_template>`_
 * `FAQs for users and developers of simulation tools <https://biosimulators.org/help/faq>`_
 * `Documentation about BioSimulators' conventions for users and developers of simulation tools <https://biosimulators.org/standards>`_
 * Documementation for users of the Python packages for the individual standardized simulation tools available through BioSimulators

@@ -6,12 +6,23 @@ BioSimulators
 
  registry of biosimulation tools.
 
-Tutorials for users and developers of simulation tools
+Tutorials for users and developers of simulation tools  Executing
+simulations online  Executing simulations using standardized Docker
+images  Executing simulations using standardized command-line
+applications  Programmatically introspecting model/simulation files
+Programmatically creating SED-ML files and COMBINE/archives from model
+model/simulation files  Programmatically retrieving information about
+the capabilities of simulation tools  Programmatically executing
+simulations in Python  Creating standardized interfaces to simulation
+tools
 
 Example SED-ML files and COMBINE archives. This includes examples for
 the BioNetGen Language (BNGL), CellML, NeuroML/LEMS, the RBApy
 language, the Smoldyn language, the Systems Biology Markup Language
 (SBML), SBML-fbc, SBML-qual, the SBML schema for MASS models, and XPP.
+
+Template Python package for a standardized interface to a simulation
+tool
 
 FAQs for users and developers of simulation tools
 

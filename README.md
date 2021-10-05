@@ -56,6 +56,17 @@ This package provides a summary of the documentation for the [BioSimulators](htt
 * [Documentation about the BioSimulators util library for developers of simulation tools](https://docs.biosimulators.org/Biosimulators_utils/)
 * [Documentation about the BioSimulators test suite for developers of simulation tools](https://docs.biosimulators.org/Biosimulators_test_suite/)
 
+## Docker image
+A Docker image with a Python environment with APIs for most of the validated simulation tools is available at https://github.com/orgs/biosimulators/packages/container/package/biosimulators. An iPython shell for this environment can be launched by installing Docker and running the commands below. Information about using the Python APIs in the image is available at https://biosimulators.org/help.:
+```
+docker pull ghcr.io/biosimulators/biosimulators
+docker run -it --rm ghcr.io/biosimulators/biosimulators
+```
+
+This image includes this package, as well as standardized Python APIs for the simulation tools validated by BioSimulators. Because this image aims to incorporate as many simulation tools as possible within a single Python environment, this image may sometimes lag behind the latest version of this package.
+
+The Dockerfile for this image is available [here](https://github.com/biosimulators/Biosimulators/blob/dev/Dockerfile).
+
 ## License
 BioSimulators is released under the [MIT License](https://github.com/biosimulators/Biosimulators/blob/dev/LICENSE).
 

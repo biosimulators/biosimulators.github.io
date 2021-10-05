@@ -75,4 +75,5 @@ Contents
 .. toctree::
    :maxdepth: 2
 
+   docker.rst
    about.rst

@@ -55,6 +55,7 @@ This package provides a summary of the documentation for the [BioSimulators](htt
     | XPP            | `format_9010` | `urn:sedml:language:xpp`     | `http://purl.org/NET/mediatypes/text/x-xpp`            | `text/x-xpp`             | `.xpp`            |
 * [Documentation about the BioSimulators util library for developers of simulation tools](https://docs.biosimulators.org/Biosimulators_utils/)
 * [Documentation about the BioSimulators test suite for developers of simulation tools](https://docs.biosimulators.org/Biosimulators_test_suite/)
+* [Information about combining multiple models and/or simulation tools using Vivarium](https://vivarium-collective.github.io/)
 
 ## Docker image
 A Docker image with a Python environment with APIs for most of the validated simulation tools is available at https://github.com/orgs/biosimulators/packages/container/package/biosimulators. An iPython shell for this environment can be launched by installing Docker and running the commands below. Information about using the Python APIs in the image is available at https://biosimulators.org/help.:

@@ -67,7 +67,7 @@ This package provides a summary of the documentation for the `BioSimulators <htt
 
 * `Documentation about the BioSimulators util library for developers of simulation tools <https://docs.biosimulators.org/Biosimulators_utils/>`_
 * `Documentation about the BioSimulators test suite for developers of simulation tools <https://docs.biosimulators.org/Biosimulators_test_suite/>`_
-
+* `Information about combining multiple models and/or simulation tools using Vivarium <https://vivarium-collective.github.io/>`_
 
 Contents
 --------

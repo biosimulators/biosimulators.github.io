@@ -66,5 +66,8 @@ simulation tools
 Documentation about the BioSimulators test suite for developers of
 simulation tools
 
+Information about combining multiple models and/or simulation tools
+using Vivarium
+
 Contents
 

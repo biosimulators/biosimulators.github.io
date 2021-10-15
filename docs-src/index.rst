@@ -8,10 +8,10 @@ This package provides a summary of the documentation for the `BioSimulators <htt
   * `Executing simulations online <https://biosimulators.org/help>`_
   * `Executing simulations using standardized Docker images <https://biosimulators.org/help>`_
   * `Executing simulations using standardized command-line applications <https://biosimulators.org/help>`_
-  * `Programmatically introspecting model/simulation files <https://mybinder.org/v2/gh/biosimulators/Biosimulators_tutorials/HEAD>`_
-  * `Programmatically creating SED-ML files and COMBINE/archives from model model/simulation files <https://mybinder.org/v2/gh/biosimulators/Biosimulators_tutorials/HEAD>`_
-  * `Programmatically retrieving information about the capabilities of simulation tools <https://mybinder.org/v2/gh/biosimulators/Biosimulators_tutorials/HEAD>`_
-  * `Programmatically executing simulations in Python <https://mybinder.org/v2/gh/biosimulators/Biosimulators_tutorials/HEAD>`_
+  * `Programmatically introspecting model/simulation files <https://tutorial.biosimulators.org/>`_
+  * `Programmatically creating SED-ML files and COMBINE/archives from model model/simulation files <https://tutorial.biosimulators.org/>`_
+  * `Programmatically retrieving information about the capabilities of simulation tools <https://tutorial.biosimulators.org/>`_
+  * `Programmatically executing simulations in Python <https://tutorial.biosimulators.org/>`_
   * `Creating standardized interfaces to simulation tools <https://github.com/biosimulators/Biosimulators_simulator_template>`_
 
 * `Example SED-ML files and COMBINE archives <https://github.com/biosimulators/Biosimulators_test_suite/tree/dev/examples>`_. This includes examples for the BioNetGen Language (BNGL), CellML, NeuroML/LEMS, the RBApy language, the Smoldyn language, the Systems Biology Markup Language (SBML), SBML-fbc, SBML-qual, the SBML schema for MASS models, and XPP.

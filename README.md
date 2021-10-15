@@ -1,3 +1,5 @@
+[![All Contributors](https://img.shields.io/github/all-contributors/biosimulators/biosimulators.github.io/HEAD)](#contributors-)
+
 # BioSimulators documentation
 This package provides a summary of the documentation for the [BioSimulators](https://biosimulators.org) registry of biosimulation tools.
 
@@ -5,10 +7,10 @@ This package provides a summary of the documentation for the [BioSimulators](htt
   * [Executing simulations online](https://biosimulators.org/help)
   * [Executing simulations using standardized Docker images](https://biosimulators.org/help)
   * [Executing simulations using standardized command-line applications](https://biosimulators.org/help)
-  * [Programmatically introspecting model/simulation files](https://mybinder.org/v2/gh/biosimulators/Biosimulators_tutorials/HEAD)
-  * [Programmatically creating SED-ML files and COMBINE/archives from model model/simulation files](https://mybinder.org/v2/gh/biosimulators/Biosimulators_tutorials/HEAD)
-  * [Programmatically retrieving information about the capabilities of simulation tools](https://mybinder.org/v2/gh/biosimulators/Biosimulators_tutorials/HEAD)
-  * [Programmatically executing simulations in Python](https://mybinder.org/v2/gh/biosimulators/Biosimulators_tutorials/HEAD)
+  * [Programmatically introspecting model/simulation files](https://tutorial.biosimulators.org/)
+  * [Programmatically creating SED-ML files and COMBINE/archives from model model/simulation files](https://tutorial.biosimulators.org/)
+  * [Programmatically retrieving information about the capabilities of simulation tools](https://tutorial.biosimulators.org/)
+  * [Programmatically executing simulations in Python](https://tutorial.biosimulators.org/)
   * [Creating standardized interfaces to simulation tools](https://github.com/biosimulators/Biosimulators_simulator_template)
 * [Example SED-ML files and COMBINE archives](https://github.com/biosimulators/Biosimulators_test_suite/tree/dev/examples). This includes examples for the BioNetGen Language (BNGL), CellML, NeuroML/LEMS, the RBApy language, the Smoldyn language, the Systems Biology Markup Language (SBML), SBML-fbc, SBML-qual, the SBML schema for MASS models, and XPP.
 * [Template Python package for a standardized interface to a simulation tool](https://github.com/biosimulators/Biosimulators_simulator_template)
@@ -72,7 +74,7 @@ The Dockerfile for this image is available [here](https://github.com/biosimulato
 BioSimulators is released under the [MIT License](https://github.com/biosimulators/Biosimulators/blob/dev/LICENSE).
 
 ## Development team
-BioSimulators was developed by the [Karr Lab](https://www.karrlab.org) at the Icahn School of Medicine at Mount Sinai in New York and the [Center for Reproducible Biomedical Modeling](http://reproduciblebiomodels.org).
+BioSimulators was developed by the [Karr Lab](https://www.karrlab.org) at the Icahn School of Medicine at Mount Sinai in New York and the [Center for Reproducible Biomedical Modeling](http://reproduciblebiomodels.org) with assistance from the contributors listed [here](CONTRIBUTORS.md).
 
 ## Contributing to BioSimulators
 We enthusiastically welcome contributions to BioSimulators! Please see the [guide to contributing](https://github.com/biosimulators/Biosimulators/blob/dev/CONTRIBUTING.md) and the [developer's code of conduct](https://github.com/biosimulators/Biosimulators/blob/dev/CODE_OF_CONDUCT.md).

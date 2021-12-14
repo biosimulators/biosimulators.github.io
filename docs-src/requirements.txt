@@ -1,3 +1,4 @@
 pydata-sphinx-theme
 sphinx >= 1.8
+sphinxcontrib_addmetahtml >= 0.1.1
 sphinxprettysearchresults

@@ -10,7 +10,7 @@ import os
 import sys
 
 # -- Project information -----------------------------------------------------
-project = 'BioSimulators docs'
+project = 'BioSimulators documentation'
 copyright = '{}, BioSimulators Team'.format(datetime.datetime.now().year)
 author = 'BioSimulators Team'
 
@@ -24,6 +24,7 @@ release = ''
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinxcontrib.addmetahtml',
     'sphinxprettysearchresults',
 ]
 
@@ -128,3 +129,8 @@ html_sidebars = {
         "sidebar-nav-bs.html",
     ]
 }
+
+# -- redirect to https://docs.biosimulations.org  ------------------------
+
+addmetahtml_content = '<meta http-equiv="refresh" content="0; url=https://docs.biosimulations.org/" />'
+addmetahtml_enabled = True
